@@ -1,0 +1,58 @@
+.footer {
+    background-color: #212121;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Kaigen Gothic KR';
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: flex;
+    width: 100%;
+    height: 55px;
+    bottom : 0;
+}
+.header {
+    background-color: rgba(33, 33, 33, 0);
+    box-shadow: 0 2px 2px transparent;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    padding-top: 35px;
+    padding-left: 5%;
+    padding-right: 5%;
+    z-index: 1000;
+    transition-duration: 0.4s;
+    transition-property: padding, background, box-shadow;
+    transition-timing-function: ease
+
+}
+.heading__title {
+    background-color: #000000;
+    opacity: 0.7;
+    color: #EEEDED;
+    text-align: center;
+    font-size: 105px;
+    font-family: 'Kaigen Gothic KR';
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%)
+}
+.nav-link{
+  color : green;
+}
+.navbar-brand{
+  color: green;
+}
+body{
+  background-color: none;
+}
+/*.carousel{
+  opacity: 0.7;
+}*/
